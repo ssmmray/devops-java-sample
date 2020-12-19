@@ -15,6 +15,7 @@ pipeline {
         DOCKERHUB_NAMESPACE = 'ssmmdocker'
         GITHUB_ACCOUNT = 'ssmmray'
         APP_NAME = 'devops-java-sample'
+        KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
     }
 
     stages {
